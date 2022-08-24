@@ -8,7 +8,7 @@
     <div id="logo" style="background-image: url({{ "images/logo.png" | absURL }})"></div>
   {{ end}}
   <div id="title">
-    <h1>{{ .Site.Title }}</h1>
+    <h1 style="display: inline-block">{{ .Site.Params.MainTitle }}</h1> <b>{{ .Site.Params.SubTitle }}</b>
   </div>
   </a>
   <div id="nav">
